@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @pawlinsky
+- 👋 Hi, I’m Paul
 - 👀 I’m interested in Android/iOS development
 - 🌱 I’m currently learning SwiftUI
 - 💞️ I’m looking to collaborate on creative and excitinig projects
