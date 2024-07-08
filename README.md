@@ -2,7 +2,6 @@
 - 👀 I’m interested in Android/iOS development
 - 🌱 I’m currently learning SwiftUI
 - 💞️ I’m looking to collaborate on creative and excitinig projects
-- 📫 How to reach me ...
 
 <!---
 pawlinsky/pawlinsky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
