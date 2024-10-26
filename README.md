@@ -1,7 +1,9 @@
 - 👋 Hi, I’m Paul
-- 👀 I’m interested in Android/iOS development
-- 🌱 I’m currently learning SwiftUI
-- 💞️ I’m looking to collaborate on creative and excitinig projects
+- 👀 Working as a mobile frontend developer
+- 🌱 Love for Terminal / Neovim, learning Neovim and Lua
+- 🚀 I’m looking to collaborate on creative and excitinig projects
+- 🎮 Love video games
+- 🚴‍♂️ Gravel bike cyclist
 
 <!---
 pawlinsky/pawlinsky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
