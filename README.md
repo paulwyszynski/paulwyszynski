@@ -1,9 +1,10 @@
 - 👋 Hi, I’m Paul
-- 👀 Working as a mobile frontend developer
+- 👀 Mobile app developer
 - 🌱 Love for Terminal / Neovim, learning Neovim and Lua
 - 🚀 I’m looking to collaborate on creative and excitinig projects
-- 🎮 Love video games
-- 🚴‍♂️ Gravel bike cyclist
+- ⛰️ Likes hiking
+- 🏋️ Likes gym
+- 🚴‍♂️ Likes his gravel bike
 
 <!---
 pawlinsky/pawlinsky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
