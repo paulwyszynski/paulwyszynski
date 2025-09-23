@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Paul
+- 👋 Hi, I’m Paulina
 - 👀 Mobile app developer
 - 🌱 Love for Terminal / Neovim, learning Neovim and Lua
 - 🚀 I’m looking to collaborate on creative and excitinig projects
