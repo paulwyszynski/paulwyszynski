@@ -18,8 +18,8 @@
 handle:    paulwyszynski
 class:     Mobile App Developer
 uplink:    Exxeta AG // Germany
-shell:     terminal-first // Neovim, currently leveling up in Lua
-mission:   looking to collaborate on creative and exciting projects
+shell:     terminal + Neovim, learning Lua
+mission:   collab on creative, exciting projects
 offline:   [hiking, gym, gravel_bike]
 ```
 
