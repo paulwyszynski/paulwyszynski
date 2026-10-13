@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Paul Wyszynski — mobile developer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05050c"/>
+      <stop offset="0.62" stop-color="#140a26"/>
+      <stop offset="1" stop-color="#05050c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9f002"/>
+      <stop offset="0.55" stop-color="#ff2a6d"/>
+      <stop offset="1" stop-color="#ff2a6d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2a6d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff2a6d" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" fill-opacity="0.28"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sunClip">
+      <rect x="0" y="0" width="1200" height="212"/>
+    </clipPath>
+    <clipPath id="floor">
+      <rect x="0" y="212" width="1200" height="128"/>
+    </clipPath>
+    <!-- glitch slices -->
+    <clipPath id="sliceA">
+      <rect x="0" y="100" width="1200" height="14">
+        <animate attributeName="y" dur="2.6s" repeatCount="indefinite"
+          values="100;150;118;170;104;132;100" keyTimes="0;0.12;0.3;0.46;0.62;0.8;1"/>
+        <animate attributeName="height" dur="2.6s" repeatCount="indefinite"
+          values="14;6;22;4;18;10;14" keyTimes="0;0.12;0.3;0.46;0.62;0.8;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="sliceB">
+      <rect x="0" y="160" width="1200" height="10">
+        <animate attributeName="y" dur="1.9s" repeatCount="indefinite"
+          values="160;112;140;98;166;128;160" keyTimes="0;0.15;0.33;0.5;0.68;0.85;1"/>
+        <animate attributeName="height" dur="1.9s" repeatCount="indefinite"
+          values="10;20;5;16;8;24;10" keyTimes="0;0.15;0.33;0.5;0.68;0.85;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="340" fill="url(#sky)"/>
+
+  <!-- retro sun -->
+  <g clip-path="url(#sunClip)" opacity="0.55">
+    <circle cx="600" cy="212" r="130" fill="url(#sun)"/>
+    <g fill="#05050c">
+      <rect x="440" y="150" width="320" height="4"/>
+      <rect x="440" y="168" width="320" height="6"/>
+      <rect x="440" y="186" width="320" height="8"/>
+      <rect x="440" y="202" width="320" height="10"/>
+    </g>
+  </g>
+
+  <!-- perspective floor grid -->
+  <g clip-path="url(#floor)" stroke="url(#gridFade)" stroke-width="1.4" fill="none">
+    <line x1="600" y1="212" x2="-1400" y2="340"/>
+    <line x1="600" y1="212" x2="-900" y2="340"/>
+    <line x1="600" y1="212" x2="-500" y2="340"/>
+    <line x1="600" y1="212" x2="-150" y2="340"/>
+    <line x1="600" y1="212" x2="150" y2="340"/>
+    <line x1="600" y1="212" x2="400" y2="340"/>
+    <line x1="600" y1="212" x2="600" y2="340"/>
+    <line x1="600" y1="212" x2="800" y2="340"/>
+    <line x1="600" y1="212" x2="1050" y2="340"/>
+    <line x1="600" y1="212" x2="1350" y2="340"/>
+    <line x1="600" y1="212" x2="1700" y2="340"/>
+    <line x1="600" y1="212" x2="2100" y2="340"/>
+    <line x1="600" y1="212" x2="2600" y2="340"/>
+    <g>
+      <line x1="0" y1="216" x2="1200" y2="216"/>
+      <line x1="0" y1="224" x2="1200" y2="224"/>
+      <line x1="0" y1="236" x2="1200" y2="236"/>
+      <line x1="0" y1="254" x2="1200" y2="254"/>
+      <line x1="0" y1="280" x2="1200" y2="280"/>
+      <line x1="0" y1="316" x2="1200" y2="316"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;0 8" dur="1.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <line x1="0" y1="212" x2="1200" y2="212" stroke="#00f0ff" stroke-width="1.5" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- HUD frame -->
+  <g stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M24 56 V24 H56"/>
+    <path d="M1144 24 H1176 V56"/>
+    <path d="M24 284 V316 H56"/>
+    <path d="M1176 284 V316 H1144"/>
+  </g>
+  <g font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" letter-spacing="2">
+    <text x="72" y="42" fill="#00f0ff" opacity="0.8">SYS://GITHUB/PAULWYSZYNSKI</text>
+    <text x="1128" y="42" fill="#f9f002" text-anchor="end">STATUS: ONLINE</text>
+    <circle cx="960" cy="37" r="5" fill="#f9f002">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="308" fill="#ff2a6d" opacity="0.85">LOC: DE</text>
+    <text x="1128" y="308" fill="#ff2a6d" opacity="0.85" text-anchor="end">NODE: EXXETA</text>
+  </g>
+
+  <!-- title with glitch -->
+  <g font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-weight="800" font-size="80" text-anchor="middle">
+    <text x="600" y="160" textLength="880" lengthAdjust="spacingAndGlyphs" fill="#d1f7ff" filter="url(#glow)">PAUL WYSZYNSKI</text>
+    <g clip-path="url(#sliceA)">
+      <text x="600" y="160" textLength="880" lengthAdjust="spacingAndGlyphs" fill="#ff2a6d">PAUL WYSZYNSKI
+        <animateTransform attributeName="transform" type="translate" dur="2.6s" repeatCount="indefinite"
+          values="-8 0;10 0;-4 0;14 0;-12 0;6 0;-8 0"/>
+      </text>
+    </g>
+    <g clip-path="url(#sliceB)">
+      <text x="600" y="160" textLength="880" lengthAdjust="spacingAndGlyphs" fill="#00f0ff">PAUL WYSZYNSKI
+        <animateTransform attributeName="transform" type="translate" dur="1.9s" repeatCount="indefinite"
+          values="9 0;-11 0;5 0;-15 0;8 0;-6 0;9 0"/>
+      </text>
+    </g>
+  </g>
+
+  <!-- subtitle -->
+  <text x="600" y="198" text-anchor="middle" fill="#f9f002"
+    font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" letter-spacing="4">&gt; MOBILE_DEV // KOTLIN · SWIFT · GO · LUA<tspan fill="#f9f002">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+
+  <!-- scanlines -->
+  <rect width="1200" height="340" fill="url(#scan)" pointer-events="none"/>
+</svg>
