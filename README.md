@@ -50,7 +50,7 @@ offline:   [hiking, gym, gravel_bike]
 ### `> cat /proc/activity`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=paulwyszynski&show_icons=true&hide_border=true&bg_color=0a0a12&title_color=ff2a6d&icon_color=00f0ff&text_color=d1f7ff&ring_color=f9f002" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=paulwyszynski&show_icons=true&hide_border=true&bg_color=0a0a12&title_color=ff2a6d&icon_color=00f0ff&text_color=d1f7ff&ring_color=f9f002&rank_icon=github" alt="GitHub stats">
   <img height="165" src="https://streak-stats.demolab.com?user=paulwyszynski&hide_border=true&background=0A0A12&ring=FF2A6D&fire=F9F002&currStreakNum=00F0FF&sideNums=D1F7FF&currStreakLabel=FF2A6D&sideLabels=00F0FF&dates=8A8FA3&stroke=1A1A2E" alt="GitHub streak">
 </p>
 
